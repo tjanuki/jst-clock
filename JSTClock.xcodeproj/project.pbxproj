@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		E3AF81762DE514C1004B4AC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3AF815F2DE514C0004B4AC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3AF81662DE514C0004B4AC6;
+			remoteInfo = JSTClock;
+		};
+		E3AF81802DE514C1004B4AC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3AF815F2DE514C0004B4AC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3AF81662DE514C0004B4AC6;
+			remoteInfo = JSTClock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E3AF81672DE514C0004B4AC6 /* JSTClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSTClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3AF81752DE514C1004B4AC6 /* JSTClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSTClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3AF817F2DE514C1004B4AC6 /* JSTClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSTClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E3AF81692DE514C0004B4AC6 /* JSTClock */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = JSTClock;
+			sourceTree = "<group>";
+		};
+		E3AF81782DE514C1004B4AC6 /* JSTClockTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = JSTClockTests;
+			sourceTree = "<group>";
+		};
+		E3AF81822DE514C1004B4AC6 /* JSTClockUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = JSTClockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3AF81642DE514C0004B4AC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3AF81722DE514C1004B4AC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3AF817C2DE514C1004B4AC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3AF815E2DE514C0004B4AC6 = {
+			isa = PBXGroup;
+			children = (
+				E3AF81692DE514C0004B4AC6 /* JSTClock */,
+				E3AF81782DE514C1004B4AC6 /* JSTClockTests */,
+				E3AF81822DE514C1004B4AC6 /* JSTClockUITests */,
+				E3AF81682DE514C0004B4AC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3AF81682DE514C0004B4AC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3AF81672DE514C0004B4AC6 /* JSTClock.app */,
+				E3AF81752DE514C1004B4AC6 /* JSTClockTests.xctest */,
+				E3AF817F2DE514C1004B4AC6 /* JSTClockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3AF81662DE514C0004B4AC6 /* JSTClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3AF81892DE514C1004B4AC6 /* Build configuration list for PBXNativeTarget "JSTClock" */;
+			buildPhases = (
+				E3AF81632DE514C0004B4AC6 /* Sources */,
+				E3AF81642DE514C0004B4AC6 /* Frameworks */,
+				E3AF81652DE514C0004B4AC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E3AF81692DE514C0004B4AC6 /* JSTClock */,
+			);
+			name = JSTClock;
+			packageProductDependencies = (
+			);
+			productName = JSTClock;
+			productReference = E3AF81672DE514C0004B4AC6 /* JSTClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E3AF81742DE514C1004B4AC6 /* JSTClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3AF818C2DE514C1004B4AC6 /* Build configuration list for PBXNativeTarget "JSTClockTests" */;
+			buildPhases = (
+				E3AF81712DE514C1004B4AC6 /* Sources */,
+				E3AF81722DE514C1004B4AC6 /* Frameworks */,
+				E3AF81732DE514C1004B4AC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3AF81772DE514C1004B4AC6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E3AF81782DE514C1004B4AC6 /* JSTClockTests */,
+			);
+			name = JSTClockTests;
+			packageProductDependencies = (
+			);
+			productName = JSTClockTests;
+			productReference = E3AF81752DE514C1004B4AC6 /* JSTClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E3AF817E2DE514C1004B4AC6 /* JSTClockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3AF818F2DE514C1004B4AC6 /* Build configuration list for PBXNativeTarget "JSTClockUITests" */;
+			buildPhases = (
+				E3AF817B2DE514C1004B4AC6 /* Sources */,
+				E3AF817C2DE514C1004B4AC6 /* Frameworks */,
+				E3AF817D2DE514C1004B4AC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3AF81812DE514C1004B4AC6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E3AF81822DE514C1004B4AC6 /* JSTClockUITests */,
+			);
+			name = JSTClockUITests;
+			packageProductDependencies = (
+			);
+			productName = JSTClockUITests;
+			productReference = E3AF817F2DE514C1004B4AC6 /* JSTClockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3AF815F2DE514C0004B4AC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					E3AF81662DE514C0004B4AC6 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					E3AF81742DE514C1004B4AC6 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = E3AF81662DE514C0004B4AC6;
+					};
+					E3AF817E2DE514C1004B4AC6 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = E3AF81662DE514C0004B4AC6;
+					};
+				};
+			};
+			buildConfigurationList = E3AF81622DE514C0004B4AC6 /* Build configuration list for PBXProject "JSTClock" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3AF815E2DE514C0004B4AC6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E3AF81682DE514C0004B4AC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3AF81662DE514C0004B4AC6 /* JSTClock */,
+				E3AF81742DE514C1004B4AC6 /* JSTClockTests */,
+				E3AF817E2DE514C1004B4AC6 /* JSTClockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3AF81652DE514C0004B4AC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3AF81732DE514C1004B4AC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3AF817D2DE514C1004B4AC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3AF81632DE514C0004B4AC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3AF81712DE514C1004B4AC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3AF817B2DE514C1004B4AC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3AF81772DE514C1004B4AC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3AF81662DE514C0004B4AC6 /* JSTClock */;
+			targetProxy = E3AF81762DE514C1004B4AC6 /* PBXContainerItemProxy */;
+		};
+		E3AF81812DE514C1004B4AC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3AF81662DE514C0004B4AC6 /* JSTClock */;
+			targetProxy = E3AF81802DE514C1004B4AC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E3AF81872DE514C1004B4AC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = HU62DYK5C3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E3AF81882DE514C1004B4AC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = HU62DYK5C3;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E3AF818A2DE514C1004B4AC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = JSTClock/JSTClock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HU62DYK5C3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tjanuki.JSTClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E3AF818B2DE514C1004B4AC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = JSTClock/JSTClock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HU62DYK5C3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tjanuki.JSTClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E3AF818D2DE514C1004B4AC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HU62DYK5C3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tjanuki.JSTClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSTClock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JSTClock";
+			};
+			name = Debug;
+		};
+		E3AF818E2DE514C1004B4AC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HU62DYK5C3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tjanuki.JSTClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSTClock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JSTClock";
+			};
+			name = Release;
+		};
+		E3AF81902DE514C1004B4AC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HU62DYK5C3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tjanuki.JSTClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = JSTClock;
+			};
+			name = Debug;
+		};
+		E3AF81912DE514C1004B4AC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HU62DYK5C3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tjanuki.JSTClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = JSTClock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3AF81622DE514C0004B4AC6 /* Build configuration list for PBXProject "JSTClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3AF81872DE514C1004B4AC6 /* Debug */,
+				E3AF81882DE514C1004B4AC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3AF81892DE514C1004B4AC6 /* Build configuration list for PBXNativeTarget "JSTClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3AF818A2DE514C1004B4AC6 /* Debug */,
+				E3AF818B2DE514C1004B4AC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3AF818C2DE514C1004B4AC6 /* Build configuration list for PBXNativeTarget "JSTClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3AF818D2DE514C1004B4AC6 /* Debug */,
+				E3AF818E2DE514C1004B4AC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3AF818F2DE514C1004B4AC6 /* Build configuration list for PBXNativeTarget "JSTClockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3AF81902DE514C1004B4AC6 /* Debug */,
+				E3AF81912DE514C1004B4AC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3AF815F2DE514C0004B4AC6 /* Project object */;
+}
