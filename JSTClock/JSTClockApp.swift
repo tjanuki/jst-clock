@@ -7,7 +7,7 @@ struct JSTClockApp: App {
     @StateObject private var clockManager = ClockManager()
     
     var body: some Scene {
-        MenuBarExtra(clockManager.currentTime, systemImage: "clock") {
+        MenuBarExtra(clockManager.currentTime) {
             VStack(alignment: .leading, spacing: 10) {
                 Text("Japan Standard Time")
                     .font(.headline)
@@ -50,7 +50,11 @@ class ClockManager: ObservableObject {
     private func updateTime() {
         let formatter = DateFormatter()
         formatter.timeZone = TimeZone(identifier: "Asia/Tokyo")
-        formatter.dateFormat = "MMM dd HH:mm"
+        formatter.dateFormat = "HH:mm"  // Just time
+        // Alternative formats:
+        // "MM/dd HH:mm"    → "01/06 14:35"
+        // "d MMM HH:mm"    → "6 Jan 14:35"
+        // "E HH:mm"        → "Mon 14:35"
         currentTime = formatter.string(from: Date())
     }
     
